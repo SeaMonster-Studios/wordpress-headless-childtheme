@@ -3,6 +3,7 @@
 class MenuRoutes {
   function __construct() {
     $this->registerRoutes();
+    $this->site_url = get_site_url();
   }
 
   public function registerRoutes () {
@@ -47,7 +48,7 @@ class MenuRoutes {
     return array(
       'id' => $item->ID,
       'title' => $item->title,
-      'url' => $item->url,
+      'url' => explode($this->site_url, $item->url)[1],
       'items' => array(),
     );
   }

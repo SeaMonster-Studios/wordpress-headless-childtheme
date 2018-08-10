@@ -31,6 +31,18 @@ function my_mce_before_init_insert_formats( $init_array ) {
 			'classes' => 'button button-tertiary',
 			'wrapper' => true,
 		),
+		array(  
+			'title' => 'Title',  
+			'selector' => 'h1,h2,h3,h4,h5,h6',
+			'classes' => 'title',
+			'wrapper' => false,
+		),
+		array(  
+			'title' => 'Subtitle',  
+			'selector' => 'h1,h2,h3,h4,h5,h6',
+			'classes' => 'subtitle',
+			'wrapper' => false,
+		),
     array(  
 			'title' => 'Heading 1 styles',  
 			'selector' => 'h1,h2,h3,h4,h5,h6',

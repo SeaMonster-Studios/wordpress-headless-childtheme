@@ -1059,34 +1059,6 @@
         "operator": "==",
         "value": "default"
       }
-    ],
-    [
-      {
-        "param": "page_template",
-        "operator": "==",
-        "value": "templates/home.php"
-      }
-    ],
-    [
-      {
-        "param": "page_template",
-        "operator": "==",
-        "value": "templates/learn.php"
-      }
-    ],
-    [
-      {
-        "param": "page_template",
-        "operator": "==",
-        "value": "templates/contact.php"
-      }
-    ],
-    [
-      {
-        "param": "page_template",
-        "operator": "==",
-        "value": "templates/services.php"
-      }
     ]
   ],
   "menu_order": 0,

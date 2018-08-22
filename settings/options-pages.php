@@ -97,15 +97,15 @@ if( function_exists('acf_add_options_page') && function_exists('acf_add_options_
 		'autoload' => false,
 	));
 
-	acf_add_options_page(array(
-		'page_title' 	=> 'Reusables',
-		'menu_title'	=> '',
-		'menu_slug' 	=> 'reusables',
-		'post_id' => 'reusables',
-		'capability'	=> 'edit_posts',
-		'redirect'		=> false,
-		'position' => '2.2',
-		'icon_url' => 'dashicons-layout',
-	));
+// 	acf_add_options_page(array(
+// 		'page_title' 	=> 'Reusables',
+// 		'menu_title'	=> '',
+// 		'menu_slug' 	=> 'reusables',
+// 		'post_id' => 'reusables',
+// 		'capability'	=> 'edit_posts',
+// 		'redirect'		=> false,
+// 		'position' => '2.2',
+// 		'icon_url' => 'dashicons-layout',
+// 	));
 
 } // end if
